@@ -22,13 +22,23 @@ const questions = [
     },
     {
         type: "input",
+        message: "What are the contribution guidlines?",
+        name: "contribute"
+    },
+    {
+        type: "input",
         message: "What is the usage of the application?",
         name: "usage",
     },
     {
         type: "input",
-        message: "What are the contribution guidlines?",
-        name: "contribute"
+        message: "What are your test instructions?",
+        name: "test"
+    },
+    {
+        type: "input",
+        message: "Enter your GitHub username",
+        name: "userName",
     },
     {
         type: "list",
@@ -41,16 +51,6 @@ const questions = [
             "MIT",
             "None",
         ]
-    },
-    {
-        type: "input",
-        message: "What are your test instructions?",
-        name: "test"
-    },
-    {
-        type: "input",
-        message: "Enter your GitHub username",
-        name: "userName",
     },
     {
         type: "input",
